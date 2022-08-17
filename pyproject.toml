@@ -5,8 +5,8 @@ description = "aggregate results from multiple ethereum contract calls"
 authors = ["banteg <banteeg@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-web3 = { git = "https://github.com/bitrocks/web3.py.git", branch = "support-geth-debug-api" }
+python = ">=3.7.2, <3.11"
+web3 = { git = "https://github.com/bitrocks/web3.py.git", branch = "master" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
