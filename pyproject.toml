@@ -6,7 +6,8 @@ authors = ["banteg <banteeg@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7.2, <3.11"
-web3 = {git = "git@github.com:bitrocks/web3.py.git", branch = "master"}
+# web3 = {git = "git@github.com:bitrocks/web3.py.git", branch = "master"}
+web3 = {git = "git@github.com:bitrocks/web3.py.git", branch = "add-accesslist"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
